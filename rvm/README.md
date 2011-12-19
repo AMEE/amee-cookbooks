@@ -6,7 +6,7 @@ Installs rvm, ruby 1.9.x and rails 3.x.x. It's most of http://beekl.es/b3 in Che
 REQUIREMENTS
 ============
 
-Tested only with Chef 0.10.4. Should work from scratch thereafter, however.
+Tested only with Chef 0.10.4 on Ubuntu Lucid
 
 ATTRIBUTES
 ==========
