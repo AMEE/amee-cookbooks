@@ -1,0 +1,15 @@
+root needs to source the profile.d thing?
+
+also, apt-get install sqlite3 libsqlite3-dev
+
+still asks for a JS runtime :/
+
+gem install therubyracer
+add to Gemfile
+bundle install
+
+gem install thin
+thin --socket /tmp/thin.sock start
+
+gem install unicorn
+unicorn
