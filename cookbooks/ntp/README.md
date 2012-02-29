@@ -1,7 +1,7 @@
 Description
 ===========
 
-Installs and configures ntp, optionally set up a local NTP server. You ballb.
+Installs and configures ntp, optionally set up a local NTP server.
 
 Requirements
 ============
