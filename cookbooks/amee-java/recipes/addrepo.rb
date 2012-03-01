@@ -17,9 +17,12 @@
 # limitations under the License.
 #
 
-include_recipe "amee-java::addrepo"
+include_recipe "apt"
 
-package "sun-java6-jdk" do
-  action :install
-  options "--force-yes"
+apt_repository "amee" do
+  uri "http://apt.amee.com"
+  distribution "amee"
+  components ["custom"]
+
+  notifies :run, "execute[apt-get update]", :immediately
 end
