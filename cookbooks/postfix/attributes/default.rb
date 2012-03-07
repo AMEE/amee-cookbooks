@@ -1,6 +1,6 @@
 default[:postfix][:mail_type]  = "client"
-default[:postfix][:myhostname] = fqdn
-default[:postfix][:mydomain]   = domain
+default[:postfix][:myhostname] = node["hostname"]
+default[:postfix][:mydomain]   = "amee.com"
 default[:postfix][:myorigin]   = "$myhostname"
 default[:postfix][:relayhost]  = ""
 default[:postfix][:mail_relay_networks] = "127.0.0.0/8"
