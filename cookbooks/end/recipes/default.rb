@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: amee-java
+# Cookbook Name:: start
 # Recipe:: default
 #
 # Copyright 2012, AMEE UK Ltd
@@ -17,9 +17,12 @@
 # limitations under the License.
 #
 
-include_recipe "amee-java::addrepo"
 
-package "sun-java6-jdk" do
-  action :install
-  options "--force-yes"
+bash "stamp a END file" do
+  user "root"
+  cwd "/tmp"
+  code <<-EOH
+  echo "END - `date +%Y%m%d%H%M%S`" > /tmp/end
+  sleep 5
+  EOH
 end
