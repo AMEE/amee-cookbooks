@@ -1,6 +1,7 @@
 name "amee-platform"
 description "AMEE Platform node"
 run_list "recipe[java]",
+         "recipe[java::crypto]",
          "recipe[apache2]",
          "recipe[apache2::mod_proxy]",
          "recipe[apache2::mod_proxy_http]",
