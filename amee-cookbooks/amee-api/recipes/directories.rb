@@ -21,7 +21,7 @@ end
 
 mkdir approot, "root"
 
-platform_root = "#{approot}/#{node['amee-api']['platform-root']}"
+platform_root = "#{approot}/#{node['amee-api']['platform-root']}-#{node.chef_environment}"
 
 mkdir platform_root
 
