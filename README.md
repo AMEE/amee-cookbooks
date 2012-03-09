@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Overview
 ========
 
@@ -64,3 +65,9 @@ Next Steps
 ==========
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+=======
+Chef cookbooks
+==============
+
+
+>>>>>>> 4aa22efb5c850ca1a88407bb106a717fd4ead6ce
