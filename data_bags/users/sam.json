@@ -1,8 +1,0 @@
-{
-  "id": "sam",
-  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA04FABrM+jWcMZvHm9JGcrojbs5gGveTo7W1cm504ul/RpXMo2szyceRjUuE+LNbW3vgXdN4tbTJBTtif+B3WKdfdzifA+uyhFCPPL6lwalNXI22ISCg97iPmlETa8d7HE+PoBg4dqHkl/rcGMl5w23j61z40dNWGEqXA5j4mFReUTDZqb6EiQsZEZ1qO9gRyNBFUiAGpro/GFGrUFc6EVKc+iPpOCJiCdy9k6+2H81R5gVBZt0FUtLPZx9BoNyMPgqeVSwD2pJP/d+R936AlwkyLlQxS2bxfSi/VnvCfgg/IGQMQohdrljqCzHAUijB6OumBQj/V9Q45Hx+VqwUoww== sam@sagan.local",
-  "groups": [ "admin" ],
-  "shell": "\/bin\/bash",
-  "comment": "Prawn",
-  "email": "sam@amee.com"
-}
