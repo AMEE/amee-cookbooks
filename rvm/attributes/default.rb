@@ -1,6 +1,0 @@
-default[:rvm][:version]     = "1.0.1"
-default[:rvm][:archive]     = "rvm-#{rvm[:version]}"
-default[:rvm][:tarball]     = "#{rvm[:archive]}.tar.gz"
-default[:rvm][:tarball_url] = "http://rvm.beginrescueend.com/releases/#{rvm[:tarball]}"
-default[:ruby][:version]    = "1.9.2-p0"
-default[:rails][:version]   = "3.1.3"
